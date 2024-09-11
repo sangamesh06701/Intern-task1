@@ -1,0 +1,84 @@
+.container-fluid{
+    background-color: rgb(199, 165, 165);
+
+}
+
+.navbar{
+    /* position: fixed; */
+
+}
+
+button{
+    background-color: rgb(187, 203, 218);
+    color: rgb(5, 73, 133);
+    /* color: none; */
+    border-radius: 5px;
+    border: none;
+    padding: 10px 25px;
+    font-size: 20px;
+}
+
+.carousel{
+    width: 800px;
+    height: 100px;
+    /* left: 330px; */
+    left: 530px;
+
+}
+
+h2{
+    margin-left: 130px;
+}
+
+.form{
+    margin-left: 150px;
+}
+
+.footer{
+    padding: 60px;
+    height: 30px;
+    background-color: black;
+    color: white;
+    margin-top: 80px;
+
+}
+
+.footer p{
+ padding-left: 500px;
+}
+
+.payimg{
+    margin-left: 400px;
+    height: 100px;
+    /* margin-top: 300px; */
+}
+
+.formset{
+   margin-left: 470px;
+}
+
+@media only screen and (max-width: 600px) { 
+    .carousel{
+        width: 500px;
+        left: 0px;
+    }
+    .form{
+        margin-left: 20px;
+        margin-top: 300px;
+    }
+
+    .footer p{
+        /* align-items: center; */
+        padding-left: 0px;
+       }
+
+       .formset{
+        margin-left: 0px;
+     }
+
+     .payimg{
+        margin-left: 0px;
+        height: 100px;
+        /* margin-top: 300px; */
+    }
+}
